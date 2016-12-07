@@ -1,0 +1,70 @@
+@media screen and (max-width: 480px) { 
+  .button {top:80%;}
+  .text{font-size:18px;}
+  #tweet{
+  top:91%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 780px){
+  .button {top:80%;}
+  .text{font-size:25px;}
+  #tweet{
+  top:91%;
+  }
+}
+@media screen and (min-width: 780px) and (max-width: 1024){
+   h1{font-size:30px;}
+}
+body{
+/*   margin:0 auto; */
+  transition: all 1.0s;
+ background-color:#FFFFF2;
+  text-align: 0 auto;
+  
+  
+  
+}
+.text{
+  padding-top:80px;
+  text-align:center;
+  font-family:‘Courier New’, Courier, monospace;
+  box-sizing:border-box;
+  margin-bottom:150px;
+  
+}
+.button{
+   padding: 12px 12px 10px 12px;
+   color: black;
+  margin-right:200px;
+  margin:auto; 
+  
+  
+  background-color:#ECF1EF;
+  text-align:center;
+  display: block;
+  font-size:22px;
+  overflow: hidden;
+  border:none;
+  font-family:Courier New;
+  width:90px ;
+  
+}
+.button:hover{
+  background-color: #93cede ;
+  border:none;
+  opacity: 0.5;
+   transition: all 1.0s;
+}
+
+#tweet{
+ position:absolute;
+  
+  top:92%;
+  }
+p{
+  position:absolute;
+  top:93%;
+  padding-left:42px;
+  font-family:Courier New;
+}
+
